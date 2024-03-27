@@ -92,7 +92,7 @@ function AutocompleteInputComponent<Item, Ref>(
   );
 }
 
-const border = {
+const border = props?.borderStyle || {
   borderColor: '#b9b9b9',
   borderRadius: 4,
   borderWidth: 1,
