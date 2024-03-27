@@ -94,7 +94,7 @@ function AutocompleteInputComponent<Item, Ref>(
 
 const border = {
   borderColor: '#b9b9b9',
-  borderRadius: 1,
+  borderRadius: 4,
   borderWidth: 1,
 };
 
